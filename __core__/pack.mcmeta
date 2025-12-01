@@ -1,0 +1,105 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": [
+			{
+				"text": "W",
+				"color": "red"
+			},
+			{
+				"text": "e",
+				"color": "gold"
+			},
+			{
+				"text": "l",
+				"color": "yellow"
+			},
+			{
+				"text": "c",
+				"color": "green"
+			},
+			{
+				"text": "o",
+				"color": "aqua"
+			},
+			{
+				"text": "m",
+				"color": "blue"
+			},
+			{
+				"text": "e",
+				"color": "light_purple"
+			},
+			" ",
+			{
+				"text": "T",
+				"color": "red"
+			},
+			{
+				"text": "o",
+				"color": "gold"
+			},
+			" ",
+			{
+				"text": "P",
+				"color": "yellow"
+			},
+			{
+				"text": "a",
+				"color": "green"
+			},
+			{
+				"text": "n",
+				"color": "aqua"
+			},
+			{
+				"text": "n",
+				"color": "blue"
+			},
+			{
+				"text": "a",
+				"color": "light_purple"
+			},
+			{
+				"text": "c",
+				"color": "white"
+			},
+			{
+				"text": "o",
+				"color": "red"
+			},
+			{
+				"text": "t",
+				"color": "yellow"
+			},
+			{
+				"text": "T",
+				"color": "green"
+			},
+			{
+				"text": "o",
+				"color": "blue"
+			},
+			{
+				"text": "w",
+				"color": "light_purple"
+			},
+			{
+				"text": "n",
+				"color": "white"
+			}
+		]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "recipe/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "advancement/.*"
+			}
+		]
+	}
+}
