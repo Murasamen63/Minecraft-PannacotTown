@@ -4,3 +4,7 @@
 #
 # @within tag/function minecraft:load
 
+
+
+# スコアボード
+    scoreboard objectives add PNCT.Const dummy
