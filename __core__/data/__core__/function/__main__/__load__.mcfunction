@@ -12,3 +12,6 @@
 # ストレージ
     data modify storage _pannacotown_:system {} set value {GameEvent:"None"}
         #GameEvent: "None","FishingBattle","WerewolfRPG"
+
+# データパック
+    datapack disable "file/fishing_battle"
