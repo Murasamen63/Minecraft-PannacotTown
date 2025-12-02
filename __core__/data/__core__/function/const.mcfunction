@@ -1,4 +1,4 @@
-#> __core__/const
+#> __core__:const
 #
 # __core__：定数を設定する
 #
