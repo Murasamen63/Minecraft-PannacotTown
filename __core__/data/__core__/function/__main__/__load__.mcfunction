@@ -6,12 +6,14 @@
 
 
 
-# スコアボード
+# scoreboard
     scoreboard objectives add PNCT.Const dummy
+    scoreboard objectives add PNCT.Temp dummy
 
-# ストレージ
+# storage
     data modify storage _pannacotown_:system {} set value {GameEvent:"None"}
         #GameEvent: "None","FishingBattle","WerewolfRPG"
 
-# データパック
+# datapack
+    # TreasurePondFishing
     datapack disable "file/fishing_battle"
