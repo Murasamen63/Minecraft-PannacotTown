@@ -8,3 +8,7 @@
 
 # スコアボード
     scoreboard objectives add PNCT.Const dummy
+
+# ストレージ
+    data modify storage _pannacotown_:system {} set value {GameEvent:"None"}
+        #GameEvent: "None","FishingBattle","WerewolfRPG"
