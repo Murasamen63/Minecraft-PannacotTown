@@ -7,9 +7,10 @@
 
 
 # scoreboard
-    scoreboard objectives remove FSBT.System.GameTimer
-    scoreboard objectives remove FSBT.Player.Score
-    scoreboard objectives remove FSBT.System.Info
+    scoreboard objectives remove 1FSBT.System.GameTimer
+    scoreboard objectives remove 1FSBT.Player.Score
+    scoreboard objectives remove 1FSBT.System.Info
+    scoreboard objectives remove 1FSBT.Player.Achievement_Reward
 
 # storage
     data modify storage 1_fishing_battle:system {} set value {}

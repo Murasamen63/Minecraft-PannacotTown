@@ -10,12 +10,12 @@
     data modify storage _pannacotown_:system GameEvent set value "FishingBattle"
 
 # scoreboard
-    scoreboard objectives add FSBT.System.GameTimer dummy
-    scoreboard objectives add FSBT.Player.Score dummy
-    scoreboard objectives add FSBT.System.Info dummy ""
+    scoreboard objectives add 1FSBT.System.GameTimer dummy
+    scoreboard objectives add 1FSBT.Player.Score dummy
+    scoreboard objectives add 1FSBT.System.Info dummy ""
 
 # trigger
-    scoreboard objectives add FSBT.Player.Achievement_Reward trigger "実績報酬"
+    scoreboard objectives add 1FSBT.Player.Achievement_Reward trigger "実績報酬"
 
 # storage
     data merge storage 1_fishing_battle:system {GameState:"Ready"}
