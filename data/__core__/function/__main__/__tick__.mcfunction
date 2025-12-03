@@ -7,4 +7,4 @@
 
 
 # TreasurePondFishing
-    execute unless data storage _pannacotown_:system {GameEvent:"FishingBattle"} run function 1_fishing_battle:_main/_tick
+    execute if data storage _pannacotown_:system {System:{GameEvent:"FishingBattle"}} run function 1_fishing_battle:_main/_tick

@@ -13,9 +13,10 @@
     scoreboard objectives remove 1FSBT.Player.Achievement_Reward
 
 # storage
-    data modify storage 1_fishing_battle:system {} set value {}
-    data modify storage 1_fishing_battle:rule {} set value {}
-    data modify storage 1_fishing_battle:shop_price {} set value {}
+    data remove storage 1_fishing_battle:system System
+    data remove storage 1_fishing_battle:rule Rule
+    data remove storage 1_fishing_battle:shop_price ShopPrice
+    data modify storage _pannacotown_:system System.GameEvent set value "None"
 
 # bossbar
     bossbar remove 1_fishing_battle:game_timer

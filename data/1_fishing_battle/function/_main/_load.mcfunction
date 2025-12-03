@@ -7,23 +7,23 @@
 
 
 # coreストレージ変更
-    data modify storage _pannacotown_:system GameEvent set value "FishingBattle"
+    data modify storage _pannacotown_:system System.GameEvent set value "FishingBattle"
 
 # scoreboard
     scoreboard objectives add 1FSBT.System.GameTimer dummy
     scoreboard objectives add 1FSBT.Player.Score dummy
-    scoreboard objectives add 1FSBT.System.Info dummy ""
+    scoreboard objectives add 1FSBT.System.Info dummy "情報"
 
 # trigger
     scoreboard objectives add 1FSBT.Player.Achievement_Reward trigger "実績報酬"
 
 # storage
-    data merge storage 1_fishing_battle:system {GameState:"Ready"}
+    data modify storage 1_fishing_battle:system System set value {GameState:"Ready"}
         #GameState:"Ready","Count","Play","Finish","End"
-    data merge storage 1_fishing_battle:rule {GameMode:"",Timer:0,Team:{Enable:0b,Count:2}}
+    data modify storage 1_fishing_battle:rule Rule set value {GameMode:"",Timer:0,Team:{Enable:0b,Count:2}}
         #GameMode:"Rank","ScoreAttack","UncleGacha"
-    execute unless data storage 1_fishing_battle:ranking Rank run data merge storage 1_fishing_battle:ranking {Rank:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},ScoreAttack:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},UncleGacha:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}}}
-    data merge storage 1_fishing_battle:shop_price {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230}}
+    execute unless data storage 1_fishing_battle:ranking Ranking run data modify storage 1_fishing_battle:ranking Ranking set value {Rank:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},ScoreAttack:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},UncleGacha:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}}}
+    data modify storage 1_fishing_battle:shop_price ShopPrice set value {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230}}
 
 # bossbar
     bossbar add 1_fishing_battle:game_timer "1_fishing_battle:game_timer"

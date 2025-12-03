@@ -6,13 +6,10 @@
 
 
 
-# coreストレージ変更
-    data modify storage _pannacotown_:system GameEvent set value "FishingBattle"
-
 # bossbar
     ## 表示
         bossbar set 1_fishing_battle:game_timer visible true
     ## 名前編集
-        #bossbar set 1_fishing_battle:game_timer name 
-    
-say test
+        #bossbar set 1_fishing_battle:game_timer name
+
+        say test2
