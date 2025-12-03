@@ -11,7 +11,7 @@
     scoreboard objectives add PNCT.Temp dummy
 
 # storage
-    data merge storage _pannacotown_:system {GameEvent:"None",Staff:[]}
+    execute unless data storage _pannacotown_:system GameEvent run data merge storage _pannacotown_:system {GameEvent:"None",Staff:[]}
         #GameEvent: "None","FishingBattle","WerewolfRPG"
 
 # datapack

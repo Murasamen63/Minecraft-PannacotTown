@@ -4,7 +4,10 @@
 #
 # @within tag/function minecraft:load
 
-    
+
+
+# coreストレージ変更
+    data modify storage _pannacotown_:system GameEvent set value "FishingBattle"
 
 # scoreboard
     scoreboard objectives add FSBT.System.GameTimer dummy
