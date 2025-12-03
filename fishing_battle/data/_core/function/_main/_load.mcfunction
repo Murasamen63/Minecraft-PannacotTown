@@ -4,14 +4,12 @@
 #
 # @within tag/function minecraft:load
 
-
-
-# coreのsystemストレージを変更
     
 
 # scoreboard
     scoreboard objectives add FSBT.System.GameTimer dummy
     scoreboard objectives add FSBT.Player.Score dummy
+    scoreboard objectives add FSBT.System.Info dummy ""
 
 # storage
     data merge storage fishing_battle:system {GameState:"Ready"}
