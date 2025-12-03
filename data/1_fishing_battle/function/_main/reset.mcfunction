@@ -12,9 +12,9 @@
     scoreboard objectives remove FSBT.System.Info
 
 # storage
-    data modify storage fishing_battle:system {} set value {}
-    data modify storage fishing_battle:rule {} set value {}
-    data modify storage fishing_battle:shop_price {} set value {}
+    data modify storage 1_fishing_battle:system {} set value {}
+    data modify storage 1_fishing_battle:rule {} set value {}
+    data modify storage 1_fishing_battle:shop_price {} set value {}
 
 # bossbar
-    bossbar remove fishing_battle:game_timer
+    bossbar remove 1_fishing_battle:game_timer

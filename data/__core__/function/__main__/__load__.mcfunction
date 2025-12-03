@@ -14,6 +14,6 @@
     execute unless data storage _pannacotown_:system GameEvent run data merge storage _pannacotown_:system {GameEvent:"None",Staff:[]}
         #GameEvent: "None","FishingBattle","WerewolfRPG"
 
-# datapack
+# reset
     # TreasurePondFishing
-    datapack disable "file/fishing_battle"
+        function 1_fishing_battle:_main/reset
