@@ -20,3 +20,7 @@
 
 # bossbar
     bossbar remove 1_fishing_battle:game_timer
+
+# effect
+    effect clear @a saturation
+    effect clear @a resistance
