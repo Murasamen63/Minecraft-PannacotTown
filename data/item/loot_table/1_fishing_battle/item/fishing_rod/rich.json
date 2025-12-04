@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "リッチ釣竿",
+                                "color": "light_purple",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "希少釣り III",
+									"color": "gray",
+									"italic": false
+								},
+                                " ",
+								{
+									"text": "高級魚が釣れる釣り竿。",
+									"color": "white",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 104,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 104
+									},
+									"1FSBT": {
+										"ID": 4,
+										"FishingRod": "Rich"
+									}
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"minecraft:lure": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:max_damage": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

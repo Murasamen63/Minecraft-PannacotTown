@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ダブル釣竿",
+                                "color": "aqua",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "二匹釣り V",
+									"color": "gray",
+									"italic": false
+								},
+                                " ",
+								{
+									"text": "2匹同時に釣れる釣り竿。",
+									"color": "white",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 102,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 102
+									},
+									"1FSBT": {
+										"ID": 2,
+										"FishingRod": "Double"
+									}
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"minecraft:lure": 3
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:max_damage": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

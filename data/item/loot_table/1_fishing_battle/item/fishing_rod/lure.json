@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "入れ食い釣竿",
+                                "color": "aqua",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "入れ食い IV",
+									"color": "gray",
+									"italic": false
+								},
+                                " ",
+								{
+									"text": "食いつき率が高い釣り竿。",
+									"color": "white",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 103,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 103
+									},
+									"1FSBT": {
+										"ID": 3,
+										"FishingRod": "Lure"
+									}
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"minecraft:lure": 4
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:max_damage": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
