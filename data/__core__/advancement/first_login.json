@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"login": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "minecraft:player"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "__core__:adv_reward/first_login"
+	}
+}
