@@ -1,0 +1,70 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "10連おじガチャ釣竿",
+                                "color": "gold",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "運否天賦 X",
+									"color": "gray",
+									"italic": false
+								},
+                                " ",
+								{
+									"text": "10回釣れるおじガチャ釣竿。",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "一回で壊れる×10",
+									"color": "white",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 106,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 107
+									},
+									"1FSBT": {
+										"ID": 7,
+										"FishingRod": "Slot10"
+									}
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"minecraft:lure": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:max_damage": 10
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
