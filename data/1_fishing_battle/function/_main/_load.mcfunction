@@ -18,7 +18,7 @@
     scoreboard objectives add 1FSBT.Player.Achievement_Reward trigger "実績報酬"
 
 # storage
-    data modify storage 1_fishing_battle:system System set value {GameState:"Ready"}
+    data modify storage 1_fishing_battle:system System set value {GameState:"Ready",Player:{Count:0}}
         #GameState:"Ready","Count","Play","Finish","End"
     data modify storage 1_fishing_battle:rule Rule set value {GameMode:"",Timer:0,Team:{Enable:0b,Count:2}}
         #GameMode:"Rank","ScoreAttack","UncleGacha"
