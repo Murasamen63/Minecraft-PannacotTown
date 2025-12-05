@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pufferfish",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ウニ"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "雲丹",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "70pt",
+									"color": "yellow",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 106,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 119
+									},
+									"1FSBT": {
+										"ID": 19,
+										"HookedItem": true,
+										"Point":70
+									}
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true,
+									"eat_seconds": 1.6
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
