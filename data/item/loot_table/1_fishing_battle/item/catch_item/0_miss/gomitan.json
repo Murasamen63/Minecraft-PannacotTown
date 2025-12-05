@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ゴミたん"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "真夏のゴミボリー",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "かもん横浜びっぐうぇい",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "1pt",
+									"color": "gray",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 102,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 136
+									},
+									"1FSBT": {
+										"ID": 36,
+										"HookedItem": true,
+										"Point":1
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

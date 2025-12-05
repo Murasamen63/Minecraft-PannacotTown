@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ごみ"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "リサイクル可能なゴミ状のゴミ。",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "1pt",
+									"color": "gray",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 101,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 135
+									},
+									"1FSBT": {
+										"ID": 35,
+										"HookedItem": true,
+										"Point":1
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
