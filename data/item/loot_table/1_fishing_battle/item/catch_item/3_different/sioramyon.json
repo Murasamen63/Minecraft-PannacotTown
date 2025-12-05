@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "塩らみょん"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "季節のお野菜いかがです？",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "230pt",
+									"color": "red",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 103,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 124
+									},
+									"1FSBT": {
+										"ID": 24,
+										"HookedItem": true,
+										"Point":230
+									}
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true,
+									"eat_seconds": 1.6
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

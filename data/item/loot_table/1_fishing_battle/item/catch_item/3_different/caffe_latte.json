@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "カフェラテ"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "ストローはプラスチック製。",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "150pt",
+									"color": "red",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 101,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 121
+									},
+									"1FSBT": {
+										"ID": 21,
+										"HookedItem": true,
+										"Point":150
+									}
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true,
+									"eat_seconds": 1.6
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

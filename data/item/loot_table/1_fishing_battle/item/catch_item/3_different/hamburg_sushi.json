@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ハンバーグ寿司"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								" ",
+								{
+									"text": "圧倒的ボリュームの一皿。",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "200pt",
+									"color": "red",
+									"bold": true,
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 102,
+								"minecraft:custom_data": {
+									"PNCT": {
+										"ID": 123
+									},
+									"1FSBT": {
+										"ID": 23,
+										"HookedItem": true,
+										"Point":200
+									}
+								},
+								"minecraft:food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true,
+									"eat_seconds": 1.6
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
