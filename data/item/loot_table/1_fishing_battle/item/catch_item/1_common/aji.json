@@ -46,8 +46,9 @@
 									},
 									"1FSBT": {
 										"ID": 9,
-										"HookedItem": true,
-										"Point":3
+										"HookedItem": {
+											"Point": 3
+										}
 									}
 								},
 								"minecraft:food": {

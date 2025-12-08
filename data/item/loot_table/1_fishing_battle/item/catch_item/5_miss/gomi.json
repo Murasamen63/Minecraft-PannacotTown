@@ -46,8 +46,9 @@
 									},
 									"1FSBT": {
 										"ID": 35,
-										"HookedItem": true,
-										"Point":1
+										"HookedItem": {
+											"Point": 1
+										}
 									}
 								}
 							}
