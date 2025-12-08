@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "タラ"
+								"text": "タラ",
+								"color": "white",
+								"italic": false
 							}
 						},
 						{

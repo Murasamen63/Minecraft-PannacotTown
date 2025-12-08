@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "カフェラテ"
+								"text": "カフェラテ",
+								"color": "red",
+								"italic": false
 							}
 						},
 						{

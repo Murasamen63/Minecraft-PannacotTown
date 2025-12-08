@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "みたらし団子"
+								"text": "みたらし団子",
+								"color": "red",
+								"italic": false
 							}
 						},
 						{

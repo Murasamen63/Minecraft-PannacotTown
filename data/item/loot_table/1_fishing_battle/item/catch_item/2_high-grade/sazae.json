@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "サザエ"
+								"text": "サザエ",
+								"color": "yellow",
+								"italic": false
 							}
 						},
 						{

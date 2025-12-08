@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "フグ"
+								"text": "フグ",
+								"color": "yellow",
+								"italic": false
 							}
 						},
 						{

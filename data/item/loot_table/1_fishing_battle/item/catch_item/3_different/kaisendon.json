@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "海鮮丼"
+								"text": "海鮮丼",
+								"color": "red",
+								"italic": false
 							}
 						},
 						{

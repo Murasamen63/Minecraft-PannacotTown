@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "ウナギ"
+								"text": "ウナギ",
+								"color": "yellow",
+								"italic": false
 							}
 						},
 						{

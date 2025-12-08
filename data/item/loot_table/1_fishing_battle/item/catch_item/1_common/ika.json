@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "イカ"
+								"text": "イカ",
+								"color": "white",
+								"italic": false
 							}
 						},
 						{

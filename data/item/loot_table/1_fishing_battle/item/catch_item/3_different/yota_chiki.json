@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "よたチキ"
+								"text": "よたチキ",
+								"color": "red",
+								"italic": false
 							}
 						},
 						{
@@ -56,7 +58,7 @@
 									"using_converts_to": {
 										"id": "minecraft:bone_meal",
 										"components": {
-											"minecraft:custom_name": "{\"text\": \"ゴミたん\"}",
+											"minecraft:custom_name": "{\"text\": \"ゴミたん\",\"color\":\"gray\",\"italic\":false}",
 											"minecraft:lore": [
 												"\" \"",
 												"{\"text\":\"真夏のゴミボリー\",\"color\":\"white\",\"italic\":false}",

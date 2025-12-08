@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "タコ焼き"
+								"text": "タコ焼き",
+								"color": "red",
+								"italic": false
 							}
 						},
 						{

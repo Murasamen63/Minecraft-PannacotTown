@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "ヒラメ"
+								"text": "ヒラメ",
+								"color": "yellow",
+								"italic": false
 							}
 						},
 						{

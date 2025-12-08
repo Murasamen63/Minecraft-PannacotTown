@@ -12,7 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "カレイ"
+								"text": "カレイ",
+								"color": "white",
+								"italic": false
 							}
 						},
 						{
