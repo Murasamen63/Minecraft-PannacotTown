@@ -46,8 +46,10 @@
 									},
 									"1FSBT": {
 										"ID": 29,
-										"HookedItem": true,
-										"Point":480
+										"CatchItem":{
+											"Rarity": "Different",
+											"Point": 480
+										}
 									}
 								},
 								"minecraft:food": {
@@ -72,8 +74,9 @@
 												},
 												"1FSBT": {
 													"ID": 36,
-													"HookedItem": {
-														"Point": 480
+													"CatchItem": {
+														"Rarity": "Miss",
+														"Point": 1
 													}
 												}
 											}

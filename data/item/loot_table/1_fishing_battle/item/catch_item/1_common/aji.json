@@ -46,7 +46,8 @@
 									},
 									"1FSBT": {
 										"ID": 9,
-										"HookedItem": {
+										"CatchItem": {
+											"Rarity": "Common",
 											"Point": 3
 										}
 									}

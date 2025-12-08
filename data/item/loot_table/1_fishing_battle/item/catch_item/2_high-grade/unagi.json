@@ -46,7 +46,8 @@
 									},
 									"1FSBT": {
 										"ID": 18,
-										"HookedItem": {
+										"CatchItem": {											
+											"Rarity": "High-Grade",
 											"Point": 60
 										}
 									}
