@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bone_meal",
+					"name": "minecraft:paper",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
