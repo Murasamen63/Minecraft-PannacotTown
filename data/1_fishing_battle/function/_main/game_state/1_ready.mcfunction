@@ -4,11 +4,22 @@
 # 
 # @within function 1_fishing_battle:_main/_tick
 
+#> Public tag
+# @Public
+    #define tag PNCT.FSBT.Player
+    #   FSBTプレイヤータグ
+
 
 
 # survival→adventure
     execute as @a[gamemode=survival] run tellraw @s "suv→adv"
     execute as @a[gamemode=survival] run gamemode adventure @s
+
+# プレイヤータグ
+    ## 付与
+        execute as @a[gamemode=adventure] run tag @s add PNCT.FSBT.Player
+    ## 削除
+        execute as @a[gamemode=!adventure] run tag @s remove PNCT.FSBT.Player
 
 # プレイヤー数検知
     execute store result storage 1_fishing_battle:system System.Player.Count int 1 run execute if entity @a[gamemode=adventure]
