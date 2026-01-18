@@ -44,14 +44,18 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 102,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.28
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 136
 									},
 									"1FSBT": {
 										"ID": 36,
-										"CatchItem": {											
+										"CatchItem": {
 											"Rarity": "Miss",
 											"Point": 1
 										}

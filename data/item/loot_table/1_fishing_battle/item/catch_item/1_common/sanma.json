@@ -39,24 +39,32 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 106,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.06
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 113
 									},
 									"1FSBT": {
 										"ID": 13,
-										"CatchItem": {											
+										"CatchItem": {
 											"Rarity": "Common",
-											"Point": 10
+											"Point": 5
 										}
 									}
+								},
+								"minecraft:consumable": {
+									"consume_seconds": 1.6,
+									"animation": "eat",
+									"sound": "minecraft:entity.generic.eat"
 								},
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,
-									"can_always_eat": true,
-									"eat_seconds": 1.6
+									"can_always_eat": true
 								}
 							}
 						}

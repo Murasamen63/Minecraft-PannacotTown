@@ -38,23 +38,31 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 103,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.03
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 103
 									},
 									"1FSBT": {
 										"ID": 3,
-										"FishingRod": "Lure"
+										"FishingRod": "lure"
 									}
 								},
 								"minecraft:enchantments": {
-									"levels": {
-										"minecraft:lure": 4
-									},
-									"show_in_tooltip": false
+									"minecraft:lure": 4
 								},
-								"minecraft:max_damage": 30
+								"minecraft:tooltip_display": {
+									"hide_tooltip": true,
+									"hidden_components": [
+										"minecraft:enchantments"
+									]
+								},
+								"minecraft:max_damage": 20,
+								"minecraft:enchantment_glint_override": true
 							}
 						}
 					]

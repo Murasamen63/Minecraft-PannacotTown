@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:paper",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -39,14 +39,18 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 101,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.27
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 135
 									},
 									"1FSBT": {
 										"ID": 35,
-										"CatchItem": {											
+										"CatchItem": {
 											"Rarity": "Miss",
 											"Point": 1
 										}

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:tropical_fish",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -39,24 +39,32 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 103,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.17
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 124
 									},
 									"1FSBT": {
 										"ID": 24,
-										"CatchItem": {											
+										"CatchItem": {
 											"Rarity": "Different",
 											"Point": 230
 										}
 									}
 								},
+								"minecraft:consumable": {
+									"consume_seconds": 1.6,
+									"animation": "eat",
+									"sound": "minecraft:entity.generic.eat"
+								},
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,
-									"can_always_eat": true,
-									"eat_seconds": 1.6
+									"can_always_eat": true
 								}
 							}
 						}

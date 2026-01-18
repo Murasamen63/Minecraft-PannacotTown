@@ -23,7 +23,7 @@
     data modify storage 1_fishing_battle:rule Rule set value {GameMode:"",Timer:0,Team:{Enable:0b,Count:2}}
         #GameMode:"Rank","ScoreAttack","UncleGacha"
     execute unless data storage 1_fishing_battle:ranking Ranking run data modify storage 1_fishing_battle:ranking Ranking set value {Rank:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},ScoreAttack:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},UncleGacha:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}}}
-    data modify storage 1_fishing_battle:shop_price ShopPrice set value {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230}}
+    data modify storage 1_fishing_battle:shop_price ShopPrice set value {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}}
 
 # Team
     team add PlayerTeamRed "赤チーム"

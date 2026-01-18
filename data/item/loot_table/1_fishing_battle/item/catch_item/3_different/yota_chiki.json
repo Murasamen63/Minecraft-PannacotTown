@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:tropical_fish",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -39,45 +39,74 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 108,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.20
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
-										"ID": 129
+										"ID": 128
 									},
 									"1FSBT": {
-										"ID": 29,
-										"CatchItem":{
+										"ID": 28,
+										"CatchItem": {
 											"Rarity": "Different",
-											"Point": 480
+											"Point": 350
 										}
 									}
+								},
+								"minecraft:consumable": {
+									"consume_seconds": 1.6,
+									"animation": "eat",
+									"sound": "minecraft:entity.generic.eat"
 								},
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,
-									"can_always_eat": true,
-									"eat_seconds": 1.6,
-									"using_converts_to": {
-										"id": "minecraft:bone_meal",
-										"components": {
-											"minecraft:custom_name": "{\"text\": \"ゴミたん\",\"color\":\"gray\",\"italic\":false}",
-											"minecraft:lore": [
-												"\" \"",
-												"{\"text\":\"真夏のゴミボリー\",\"color\":\"white\",\"italic\":false}",
-												"{\"text\":\"かもん横浜びっぐうぇい\",\"color\":\"white\",\"italic\":false}",
-												"{\"text\":\"1pt\",\"color\":\"gray\",\"bold\":true,\"italic\":false}"
-											],
-											"minecraft:custom_model_data": 102,
-											"minecraft:custom_data": {
-												"PNCT": {
-													"ID": 136
-												},
-												"1FSBT": {
-													"ID": 36,
-													"CatchItem": {
-														"Rarity": "Miss",
-														"Point": 1
-													}
+									"can_always_eat": true
+								},
+								"use_remainder": {
+									"id": "minecraft:cod",
+									"components": {
+										"minecraft:custom_name": {
+											"text": "ゴミたん",
+											"color": "gray",
+											"italic": false
+										},
+										"minecraft:lore": [
+											" ",
+											{
+												"text": "真夏のゴミボリー",
+												"color": "white",
+												"italic": false
+											},
+											{
+												"text": "かもん横浜びっぐうぇい",
+												"color": "white",
+												"italic": false
+											},
+											{
+												"text": "1pt",
+												"color": "gray",
+												"bold": true,
+												"italic": false
+											}
+										],
+										"minecraft:custom_model_data": {
+											"floats": [
+												1.28
+											]
+										},
+										"minecraft:custom_data": {
+											"PNCT": {
+												"ID": 136
+											},
+											"1FSBT": {
+												"ID": 36,
+												"CatchItem": {
+													"Rarity": "Miss",
+													"Point": 1
 												}
 											}
 										}

@@ -38,7 +38,11 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 104,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.04
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 104
@@ -49,12 +53,16 @@
 									}
 								},
 								"minecraft:enchantments": {
-									"levels": {
-										"minecraft:lure": 1
-									},
-									"show_in_tooltip": false
+									"minecraft:lure": 1
 								},
-								"minecraft:max_damage": 30
+								"minecraft:tooltip_display": {
+									"hide_tooltip": true,
+									"hidden_components": [
+										"minecraft:enchantments"
+									]
+								},
+								"minecraft:max_damage": 10,
+								"minecraft:enchantment_glint_override": true
 							}
 						}
 					]

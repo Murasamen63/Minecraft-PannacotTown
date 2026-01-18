@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:pufferfish",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -39,24 +39,32 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 107,
+								"minecraft:custom_model_data": {
+									"floats": [
+										1.13
+									]
+								},
 								"minecraft:custom_data": {
 									"PNCT": {
 										"ID": 120
 									},
 									"1FSBT": {
 										"ID": 20,
-										"CatchItem": {											
+										"CatchItem": {
 											"Rarity": "High-Grade",
 											"Point": 100
 										}
 									}
 								},
+								"minecraft:consumable": {
+									"consume_seconds": 1.6,
+									"animation": "eat",
+									"sound": "minecraft:entity.generic.eat"
+								},
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,
-									"can_always_eat": true,
-									"eat_seconds": 1.6
+									"can_always_eat": true
 								}
 							}
 						}
