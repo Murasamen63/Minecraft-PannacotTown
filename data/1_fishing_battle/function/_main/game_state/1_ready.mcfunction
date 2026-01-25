@@ -32,3 +32,5 @@
         bossbar set 1_fishing_battle:game_timer value 1
     ## 名前編集
         #bossbar set 1_fishing_battle:game_timer name
+
+# ランキング表示操作
