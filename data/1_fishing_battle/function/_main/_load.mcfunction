@@ -18,12 +18,26 @@
     scoreboard objectives add 1FSBT.Player.Achievement_Reward trigger "実績報酬"
 
 # storage
-    data modify storage 1_fishing_battle:system System set value {GameState:"Ready",Player:{Count:0}}
-        #GameState:"Ready","Count","Play","Finish","End"
-    data modify storage 1_fishing_battle:rule Rule set value {GameMode:"ScoreAttack",Timer:0,Team:{Enable:0b,Count:2}}
-        #GameMode:"ScoreAttack","TimeAttack","Rank:ScoreAttack","Rank:TimeAttack","UncleGacha"
-    execute unless data storage 1_fishing_battle:ranking Ranking run data modify storage 1_fishing_battle:ranking Ranking set value {Solo:{Rank:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},TimeAttack:{1:{Name:[null],Time:0},2:{Name:[null],Time:0},3:{Name:[null],Time:0},4:{Name:[null],Time:0},5:{Name:[null],Time:0}},UncleGacha:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}}},Team:{Rank:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}},TimeAttack:{1:{Name:[null],Time:0},2:{Name:[null],Time:0},3:{Name:[null],Time:0},4:{Name:[null],Time:0},5:{Name:[null],Time:0}},UncleGacha:{1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0}}}}
-    data modify storage 1_fishing_battle:shop_price ShopPrice set value {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}}
+    # System
+        data modify storage 1_fishing_battle:system System set value {GameState:"Ready",Player:{Count:0}}
+            #GameState:"Ready","Count","Play","Finish","End"
+    # Rule
+        data modify storage 1_fishing_battle:rule Rule set value {GameMode:"ScoreAttack",Rank:{Enable:0b},Timer:0,Team:{Enable:0b,Count:2}}
+            #GameMode:"ScoreAttack","TimeAttack","UncleGacha"
+    # Regulation
+        data modify storage 1_fishing_battle:regulation Regulation set value {ScoreAttack:{Time:6000,RodPrice:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}},TimeAttack:{Time:180,RodPrice:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}},UncleGacha:{Time:6000,RodPrice:{DoubleRod:99999,LureRod:99999,RichRod:99999,GamblingRod:99999,SlotRod:0,10SlotRod:0}}}
+    # Ranking
+        # Solo
+            execute unless data storage 1_fishing_battle:ranking Ranking.Solo.ScoreAttack run data modify storage 1_fishing_battle:ranking Ranking.Solo.ScoreAttack set value {1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0},6:{Name:[null],Score:0}}
+            execute unless data storage 1_fishing_battle:ranking Ranking.Solo.TimeAttack run data modify storage 1_fishing_battle:ranking Ranking.Solo.TimeAttack set value {1:{Name:[null],Time:0},2:{Name:[null],Time:0},3:{Name:[null],Time:0},4:{Name:[null],Time:0},5:{Name:[null],Time:0},6:{Name:[null],Time:0}}
+            execute unless data storage 1_fishing_battle:ranking Ranking.Solo.UncleGacha run data modify storage 1_fishing_battle:ranking Ranking.Solo.UncleGacha set value {1:{Name:[null],Score:0},2:{Name:[null],Score:0},3:{Name:[null],Score:0},4:{Name:[null],Score:0},5:{Name:[null],Score:0},6:{Name:[null],Score:0}}
+        # Team
+            execute unless data storage 1_fishing_battle:ranking Ranking.Team.ScoreAttack run data modify storage 1_fishing_battle:ranking Ranking.Team.ScoreAttack set value {1:{Color:"null",Name:[null],Score:0},2:{Color:"null",Name:[null],Score:0},3:{Color:"null",Name:[null],Score:0},4:{Color:"null",Name:[null],Score:0},5:{Color:"null",Name:[null],Score:0},6:{Color:"null",Name:[null],Score:0}}
+            execute unless data storage 1_fishing_battle:ranking Ranking.Team.TimeAttack run data modify storage 1_fishing_battle:ranking Ranking.Team.TimeAttack set value {1:{Color:"null",Name:[null],Time:0},2:{Color:"null",Name:[null],Time:0},3:{Color:"null",Name:[null],Time:0},4:{Color:"null",Name:[null],Time:0},5:{Color:"null",Name:[null],Time:0},6:{Color:"null",Name:[null],Time:0}}
+            execute unless data storage 1_fishing_battle:ranking Ranking.Team.UncleGacha run data modify storage 1_fishing_battle:ranking Ranking.Team.UncleGacha set value {1:{Color:"null",Name:[null],Score:0},2:{Color:"null",Name:[null],Score:0},3:{Color:"null",Name:[null],Score:0},4:{Color:"null",Name:[null],Score:0},5:{Color:"null",Name:[null],Score:0},6:{Color:"null",Name:[null],Score:0}}
+    # ShopPrice
+        data modify storage 1_fishing_battle:shop_price ShopPrice set value {FishingRod:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}}
+            #DefaultValue:{DoubleRod:15,LureRod:70,RichRod:160,GamblingRod:180,SlotRod:230,10SlotRod:2300}
 
 # Team
     team add PlayerTeamRed "赤チーム"
