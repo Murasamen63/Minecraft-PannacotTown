@@ -1,4 +1,4 @@
-#> _core:_main/reset
+#> 1_fishing_battle:_main/reset
 #
 # FishingBattle：リセット時に読み込む
 #

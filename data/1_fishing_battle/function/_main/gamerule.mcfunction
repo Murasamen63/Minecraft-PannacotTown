@@ -1,4 +1,4 @@
-#> _core:_main/gamerule
+#> 1_fishing_battle:_main/gamerule
 #
 # FishingBattle：ゲーム企画のゲームルール
 #
