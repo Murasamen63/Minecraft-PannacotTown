@@ -61,7 +61,6 @@
 									"minecraft:lure": 2
 								},
 								"minecraft:tooltip_display": {
-									"hide_tooltip": true,
 									"hidden_components": [
 										"minecraft:enchantments"
 									]
