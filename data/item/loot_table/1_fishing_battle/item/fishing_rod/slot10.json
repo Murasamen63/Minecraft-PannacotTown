@@ -54,7 +54,7 @@
 									},
 									"1FSBT": {
 										"ID": 7,
-										"FishingRod": "Slot-10"
+										"FishingRod": "Slot"
 									}
 								},
 								"minecraft:enchantments": {
