@@ -49,7 +49,9 @@
 									},
 									"1FSBT": {
 										"ID": 1,
-										"FishingRod": "Normal"
+										"FishingRod": {
+											"type" : "Normal"
+										}
 									}
 								},
 								"minecraft:unbreakable": {},

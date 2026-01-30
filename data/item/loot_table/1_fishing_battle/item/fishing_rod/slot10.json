@@ -54,7 +54,10 @@
 									},
 									"1FSBT": {
 										"ID": 7,
-										"FishingRod": "Slot"
+										"FishingRod": {
+											"type" : "Slot",
+											"Variant" : "10-pack"
+										}
 									}
 								},
 								"minecraft:enchantments": {

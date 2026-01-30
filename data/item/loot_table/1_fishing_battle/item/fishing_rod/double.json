@@ -49,7 +49,9 @@
 									},
 									"1FSBT": {
 										"ID": 2,
-										"FishingRod": "Double"
+										"FishingRod": {
+											"type" : "Double"
+										}
 									}
 								},
 								"minecraft:enchantments": {

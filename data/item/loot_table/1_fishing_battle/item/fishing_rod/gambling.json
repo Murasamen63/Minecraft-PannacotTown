@@ -49,7 +49,9 @@
 									},
 									"1FSBT": {
 										"ID": 5,
-										"FishingRod": "Gambling"
+										"FishingRod": {
+											"type" : "Gambling"
+										}
 									}
 								},
 								"minecraft:enchantments": {
