@@ -1,0 +1,136 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+                {
+					"type": "minecraft:loot_table",
+					"value": "1_fishing_battle:fishing/in_game/fishing_rod/normal",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Normal"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "aa",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Double"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "aa",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Lure"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "aa",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Rich"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "aa",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Gambling"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "aa",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {
+											    "type" : "Slot"
+										    }
+										}
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
