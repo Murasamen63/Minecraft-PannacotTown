@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "1_fishing_battle:fishing/vanilla/fishing",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:match_tool",
+								"predicate": {
+									"items": "minecraft:fishing_rod",
+									"predicates": {
+										"minecraft:custom_data": {
+											"1FSBT": {
+												"FishingRod": {}
+											}
+										}
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "1_fishing_battle:fishing/in_game/fishing_rod/_main",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": "minecraft:fishing_rod",
+								"predicates": {
+									"minecraft:custom_data": {
+										"1FSBT": {
+											"FishingRod": {}
+										}
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
