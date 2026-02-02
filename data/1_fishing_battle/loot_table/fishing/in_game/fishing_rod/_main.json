@@ -27,7 +27,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "aa",
+					"value": "1_fishing_battle:fishing/in_game/fishing_rod/double",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",

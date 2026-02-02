@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/tara",
+					"weight": 18
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/aji",
+					"weight": 17
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/karei",
+					"weight": 16
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/syake",
+					"weight": 10
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/ika",
+					"weight": 10
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/1_common/sanma",
+					"weight": 8
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hotate",
+					"weight": 5
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hugu",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hirame",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/sazae",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/unagi",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/uni",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/maguro",
+					"weight": 1
+				}
+			]
+		}
+	]
+}
