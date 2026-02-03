@@ -22,13 +22,18 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "入れ食い I",
+									"color": "gray",
+									"italic": false
+								},
+								{
 									"text": "希少釣り III",
 									"color": "gray",
 									"italic": false
 								},
                                 " ",
 								{
-									"text": "高級魚が釣れる釣り竿。",
+									"text": "より高級な魚が釣れる釣り竿。",
 									"color": "white",
 									"italic": false
 								}

@@ -22,13 +22,18 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "入れ食い II",
+									"color": "gray",
+									"italic": false
+								},
+								{
 									"text": "運否天賦 V",
 									"color": "gray",
 									"italic": false
 								},
                                 " ",
 								{
-									"text": "レアかゴミが釣れる釣り竿。(壊れやすい)",
+									"text": "レアかゴミが釣れる釣り竿。",
 									"color": "white",
 									"italic": false
 								}
@@ -55,7 +60,7 @@
 									}
 								},
 								"minecraft:enchantments": {
-									"minecraft:lure": 3
+									"minecraft:lure": 2
 								},
 								"minecraft:tooltip_display": {
 									"hidden_components": [

@@ -22,6 +22,11 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "入れ食い II",
+									"color": "gray",
+									"italic": false
+								},
+								{
 									"text": "二匹釣り V",
 									"color": "gray",
 									"italic": false
@@ -55,7 +60,7 @@
 									}
 								},
 								"minecraft:enchantments": {
-									"minecraft:lure": 3
+									"minecraft:lure": 2
 								},
 								"minecraft:tooltip_display": {
 									"hidden_components": [

@@ -22,6 +22,11 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "入れ食い I",
+									"color": "gray",
+									"italic": false
+								},
+								{
 									"text": "運否天賦 X",
 									"color": "gray",
 									"italic": false
@@ -61,7 +66,7 @@
 									}
 								},
 								"minecraft:enchantments": {
-									"minecraft:lure": 2
+									"minecraft:lure": 1
 								},
 								"minecraft:tooltip_display": {
 									"hidden_components": [

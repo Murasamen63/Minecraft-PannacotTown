@@ -22,7 +22,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "入れ食い IV",
+									"text": "入れ食い III",
 									"color": "gray",
 									"italic": false
 								},
@@ -55,7 +55,7 @@
 									}
 								},
 								"minecraft:enchantments": {
-									"minecraft:lure": 4
+									"minecraft:lure": 3
 								},
 								"minecraft:tooltip_display": {
 									"hidden_components": [
