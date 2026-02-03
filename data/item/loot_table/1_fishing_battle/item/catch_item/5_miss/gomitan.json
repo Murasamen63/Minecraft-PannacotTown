@@ -33,7 +33,7 @@
 									"italic": false
 								},
 								{
-									"text": "1pt",
+									"text": "2pt",
 									"color": "gray",
 									"bold": true,
 									"italic": false
@@ -57,7 +57,7 @@
 										"ID": 36,
 										"CatchItem": {
 											"Rarity": "Miss",
-											"Point": 1
+											"Point": 2
 										}
 									}
 								}

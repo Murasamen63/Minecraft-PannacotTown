@@ -23,12 +23,12 @@
 							"lore": [
 								" ",
 								{
-									"text": "￥480(税別)",
+									"text": "￥1500(税別)",
 									"color": "white",
 									"italic": false
 								},
 								{
-									"text": "480pt",
+									"text": "1500pt",
 									"color": "red",
 									"bold": true,
 									"italic": false
@@ -52,7 +52,7 @@
 										"ID": 28,
 										"CatchItem": {
 											"Rarity": "Different",
-											"Point": 350
+											"Point": 1500
 										}
 									}
 								},
@@ -85,12 +85,6 @@
 												"text": "かもん横浜びっぐうぇい",
 												"color": "white",
 												"italic": false
-											},
-											{
-												"text": "1pt",
-												"color": "gray",
-												"bold": true,
-												"italic": false
 											}
 										],
 										"minecraft:custom_model_data": {
@@ -103,11 +97,7 @@
 												"ID": 136
 											},
 											"1FSBT": {
-												"ID": 36,
-												"CatchItem": {
-													"Rarity": "Miss",
-													"Point": 1
-												}
+												"ID": 36
 											}
 										}
 									}

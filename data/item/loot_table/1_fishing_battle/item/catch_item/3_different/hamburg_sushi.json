@@ -28,7 +28,7 @@
 									"italic": false
 								},
 								{
-									"text": "200pt",
+									"text": "570pt",
 									"color": "red",
 									"bold": true,
 									"italic": false
@@ -52,7 +52,7 @@
 										"ID": 23,
 										"CatchItem": {
 											"Rarity": "Different",
-											"Point": 200
+											"Point": 570
 										}
 									}
 								},
