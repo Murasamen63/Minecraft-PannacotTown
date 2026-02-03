@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/caffe_latte",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/mitarasi",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/hamburg_sushi",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/sioramyon",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/takoyaki",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/mattya_ice/--group",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/kaisendon",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/3_different/koimoyou",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
