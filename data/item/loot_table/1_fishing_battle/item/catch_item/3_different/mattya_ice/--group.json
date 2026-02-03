@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/3_different/mattya_ice/mattya_ice",
+					"weight": 995
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/3_different/mattya_ice/mattya_ice_secret",
+					"weight": 5
+				}
+			]
+		}
+	]
+}
