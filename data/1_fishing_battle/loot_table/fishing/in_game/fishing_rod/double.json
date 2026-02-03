@@ -7,67 +7,77 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/tara",
-					"weight": 18
+					"weight": 250
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/aji",
-					"weight": 17
+					"weight": 350
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/karei",
-					"weight": 16
+					"weight": 400
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/syake",
-					"weight": 10
+					"weight": 650
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/ika",
-					"weight": 10
+					"weight": 800
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/sanma",
-					"weight": 8
+					"weight": 900
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hotate",
-					"weight": 5
+					"weight": 1000
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hugu",
-					"weight": 5
+					"weight": 1100
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hirame",
-					"weight": 3
+					"weight": 1100
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/sazae",
-					"weight": 3
+					"weight": 1000
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/unagi",
-					"weight": 2
+					"weight": 900
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/uni",
-					"weight": 2
+					"weight": 800
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/maguro",
-					"weight": 1
+					"weight": 700
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/3_different/caffe_latte",
+					"weight": 200
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/3_different/mitarasi",
+					"weight": 200
 				}
 			]
 		}
