@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomi"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomitan"
+                }
+            ]
+        }
+    ]
+}

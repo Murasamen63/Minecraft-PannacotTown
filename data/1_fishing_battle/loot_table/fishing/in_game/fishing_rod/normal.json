@@ -7,42 +7,47 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/tara",
-					"weight": 25
+					"weight": 3500
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/aji",
-					"weight": 25
+					"weight": 2000
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/karei",
-					"weight": 15
+					"weight": 1500
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/syake",
-					"weight": 10
+					"weight": 1000
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/ika",
-					"weight": 10
+					"weight": 1000
 				},
                 {
 					"type": "minecraft:loot_table",
 					"value": "item:1_fishing_battle/item/catch_item/1_common/sanma",
-					"weight": 5
+					"weight": 500
 				},
-                {
+				{
 					"type": "minecraft:loot_table",
-					"value": "item:1_fishing_battle/item/catch_item/5_miss/gomi",
-					"weight": 5
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hotate",
+					"weight": 250
 				},
-                {
+				{
 					"type": "minecraft:loot_table",
-					"value": "item:1_fishing_battle/item/catch_item/5_miss/gomitan",
-					"weight": 5
+					"value": "item:1_fishing_battle/item/catch_item/2_high-grade/hugu",
+					"weight": 200
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "item:1_fishing_battle/item/catch_item/5_miss/--group",
+					"weight": 250
 				}
 			]
 		}
