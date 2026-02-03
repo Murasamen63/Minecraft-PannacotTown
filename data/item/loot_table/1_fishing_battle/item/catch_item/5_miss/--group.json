@@ -6,11 +6,13 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomi"
+                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomi",
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomitan"
+                    "value": "item:1_fishing_battle/item/catch_item/5_miss/gomitan",
+                    "weight": 1
                 }
             ]
         }
